@@ -1,0 +1,6 @@
+{
+  "name": "VERCIANO | Ready-to-Wear Sartorial Luxury",
+  "description": "High-end men's ready-to-wear luxury e-commerce platform with editorial aesthetic, inventory control, and admin management suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

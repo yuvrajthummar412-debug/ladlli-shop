@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0c0e;
+    color: #f2efe9;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Luxury Glassmorphism */
+.glass-panel {
+  background: rgba(20, 19, 23, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-pill {
+  background: rgba(24, 23, 28, 0.72);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(245, 208, 97, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 25px rgba(212, 175, 55, 0.08);
+}
+
+/* Premium Metallic Gold Suite */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff3c4 0%, #f5cf68 35%, #d4a329 70%, #fbe89d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold {
+  color: #f1cb68;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #fae28e 0%, #e2b448 45%, #b5861b 100%);
+  color: #0c0c0e;
+}
+
+.bg-gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #fff0b3 0%, #f0c355 50%, #c59424 100%);
+  color: #08080a;
+}
+
+.border-gold {
+  border-color: rgba(241, 203, 104, 0.35);
+}
+
+.border-gold-glow {
+  border: 1px solid rgba(241, 203, 104, 0.45);
+  box-shadow: 0 0 16px rgba(226, 180, 72, 0.22);
+}
+
+.gold-bloom {
+  background: radial-gradient(circle, rgba(245, 207, 104, 0.22) 0%, rgba(197, 155, 39, 0.08) 45%, transparent 70%);
+  filter: blur(48px);
+}
+
+.gold-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #fff3c4, #e2b448);
+  box-shadow: 0 0 8px rgba(245, 207, 104, 0.85);
+  display: inline-block;
+}
+
+.gold-dot-lg {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #fff3c4, #d4a329);
+  box-shadow: 0 0 12px rgba(245, 207, 104, 0.9);
+  display: inline-block;
+}
+
+.gold-half-dot {
+  width: 12px;
+  height: 6px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: linear-gradient(135deg, #fff3c4 0%, #e2b448 100%);
+  box-shadow: 0 0 10px rgba(245, 207, 104, 0.65);
+  display: inline-block;
+}
+
+/* Subtle luxury grain / film texture overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0c0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a282f;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #45414d;
+}
+
